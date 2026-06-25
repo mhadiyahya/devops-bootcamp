@@ -1,0 +1,11 @@
+Nameserver cloudflare
+emely.ns.cloudflare.com
+nero.ns.cloudflare.com
+
+Portfolio
+mhadiyahya-github-io.pages.dev
+www.hadiyahyalab.com
+
+Private-site
+private-site-4kh.pages.dev
+private.hadiyahyalab.com
