@@ -1,0 +1,21 @@
+Docker version 29.6.1, build 8900f1d
+IMAGE                                                                       ID             DISK USAGE   CONTENT SIZE   EXTRA
+713362557514.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/hadi:v1   1e5b0a49bc38        104MB         31.2MB   U    
+alpine:latest                                                               28bd5fe8b56d         13MB         3.93MB        
+app:kecil                                                                   1e5b0a49bc38        104MB         31.2MB   U    
+clickhouse/clickhouse-server:24.8                                           1ffa82edee00        807MB          179MB        
+ghcr.io/infratify/arena-avatar:latest                                       4839ca66eedf        201MB         49.1MB   U    
+ghcr.io/infratify/arena-server:latest                                       4a0ee704ecd2        195MB         48.7MB   U    
+hello-world:latest                                                          96498ffd522e       25.9kB         9.49kB        
+infratify/card:latest                                                       2414f6668e83         81MB         23.1MB        
+mariadb:11.4                                                                a794d9eb009e        467MB          110MB        
+nginx:alpine                                                                54f2a904c251       93.3MB         26.9MB        
+nginx:latest                                                                ec4ed8b5299e        241MB           66MB        
+redis:latest                                                                2838d5524559        208MB         56.3MB   U    
+rsmon-backend:latest                                                        58cc4c5f2322        284MB         65.6MB        
+rsmon-rsyslog:latest                                                        4eb3043afcd7       14.4MB          4.2MB        
+CONTAINER ID   IMAGE                                                                       COMMAND                  CREATED       STATUS       PORTS                                         NAMES
+650028f4e980   ghcr.io/infratify/arena-avatar                                              "docker-entrypoint.s…"   2 hours ago   Up 2 hours   0.0.0.0:8081->8080/tcp, [::]:8081->8080/tcp   avatar
+b9376e658d55   ghcr.io/infratify/arena-server                                              "docker-entrypoint.s…"   2 hours ago   Up 2 hours   3000/tcp                                      arena-server
+25c2673d6a09   redis                                                                       "docker-entrypoint.s…"   2 hours ago   Up 2 hours   6379/tcp                                      profile
+ccabe5c77cb7   713362557514.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/hadi:v1   "/docker-entrypoint.…"   3 hours ago   Up 3 hours   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp       sharp_kilby
