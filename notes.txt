@@ -1,0 +1,4 @@
+Ringkasan
+1. Menyediakan server nginx di EC2 dan setup domain ke Elastic IP.
+2. Memahami Proxied dan DNS only
+3. Expose service private ke internet menggunakan Cloudflare tunnel
